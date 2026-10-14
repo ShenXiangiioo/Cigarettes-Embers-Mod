@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "embers:hetianxia_cigarette"
+    },
+    "title": {
+      "translate": "advancement.embers.first_smoke"
+    },
+    "description": {
+      "translate": "advancement.embers.first_smoke.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "first": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "embers:welcome"
+}

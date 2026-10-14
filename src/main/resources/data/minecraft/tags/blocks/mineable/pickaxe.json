@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "embers:ashtray",
+    "embers:refill_station",
+    "embers:processing_machine"
+  ]
+}

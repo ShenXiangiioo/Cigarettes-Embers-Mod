@@ -1,0 +1,23 @@
+{
+  "type": "embers:processing",
+  "tobacco": {
+    "item": "embers:dried_red_tobacco"
+  },
+  "paper": {
+    "item": "minecraft:paper"
+  },
+  "additives": [
+    {
+      "ingredient": {
+        "item": "minecraft:dried_kelp"
+      },
+      "count": 1
+    }
+  ],
+  "duration": 6000,
+  "fuel": 1,
+  "result": {
+    "item": "embers:huanghelou_pack",
+    "count": 1
+  }
+}

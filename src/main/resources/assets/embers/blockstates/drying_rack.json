@@ -1,0 +1,132 @@
+{
+  "variants": {
+    "facing=north,upper=false,left=false,right=false": {
+      "model": "embers:block/rack_000",
+      "y": 0
+    },
+    "facing=north,upper=false,left=false,right=true": {
+      "model": "embers:block/rack_001",
+      "y": 0
+    },
+    "facing=north,upper=false,left=true,right=false": {
+      "model": "embers:block/rack_010",
+      "y": 0
+    },
+    "facing=north,upper=false,left=true,right=true": {
+      "model": "embers:block/rack_011",
+      "y": 0
+    },
+    "facing=north,upper=true,left=false,right=false": {
+      "model": "embers:block/rack_100",
+      "y": 0
+    },
+    "facing=north,upper=true,left=false,right=true": {
+      "model": "embers:block/rack_101",
+      "y": 0
+    },
+    "facing=north,upper=true,left=true,right=false": {
+      "model": "embers:block/rack_110",
+      "y": 0
+    },
+    "facing=north,upper=true,left=true,right=true": {
+      "model": "embers:block/rack_111",
+      "y": 0
+    },
+    "facing=east,upper=false,left=false,right=false": {
+      "model": "embers:block/rack_000",
+      "y": 90
+    },
+    "facing=east,upper=false,left=false,right=true": {
+      "model": "embers:block/rack_001",
+      "y": 90
+    },
+    "facing=east,upper=false,left=true,right=false": {
+      "model": "embers:block/rack_010",
+      "y": 90
+    },
+    "facing=east,upper=false,left=true,right=true": {
+      "model": "embers:block/rack_011",
+      "y": 90
+    },
+    "facing=east,upper=true,left=false,right=false": {
+      "model": "embers:block/rack_100",
+      "y": 90
+    },
+    "facing=east,upper=true,left=false,right=true": {
+      "model": "embers:block/rack_101",
+      "y": 90
+    },
+    "facing=east,upper=true,left=true,right=false": {
+      "model": "embers:block/rack_110",
+      "y": 90
+    },
+    "facing=east,upper=true,left=true,right=true": {
+      "model": "embers:block/rack_111",
+      "y": 90
+    },
+    "facing=south,upper=false,left=false,right=false": {
+      "model": "embers:block/rack_000",
+      "y": 180
+    },
+    "facing=south,upper=false,left=false,right=true": {
+      "model": "embers:block/rack_001",
+      "y": 180
+    },
+    "facing=south,upper=false,left=true,right=false": {
+      "model": "embers:block/rack_010",
+      "y": 180
+    },
+    "facing=south,upper=false,left=true,right=true": {
+      "model": "embers:block/rack_011",
+      "y": 180
+    },
+    "facing=south,upper=true,left=false,right=false": {
+      "model": "embers:block/rack_100",
+      "y": 180
+    },
+    "facing=south,upper=true,left=false,right=true": {
+      "model": "embers:block/rack_101",
+      "y": 180
+    },
+    "facing=south,upper=true,left=true,right=false": {
+      "model": "embers:block/rack_110",
+      "y": 180
+    },
+    "facing=south,upper=true,left=true,right=true": {
+      "model": "embers:block/rack_111",
+      "y": 180
+    },
+    "facing=west,upper=false,left=false,right=false": {
+      "model": "embers:block/rack_000",
+      "y": 270
+    },
+    "facing=west,upper=false,left=false,right=true": {
+      "model": "embers:block/rack_001",
+      "y": 270
+    },
+    "facing=west,upper=false,left=true,right=false": {
+      "model": "embers:block/rack_010",
+      "y": 270
+    },
+    "facing=west,upper=false,left=true,right=true": {
+      "model": "embers:block/rack_011",
+      "y": 270
+    },
+    "facing=west,upper=true,left=false,right=false": {
+      "model": "embers:block/rack_100",
+      "y": 270
+    },
+    "facing=west,upper=true,left=false,right=true": {
+      "model": "embers:block/rack_101",
+      "y": 270
+    },
+    "facing=west,upper=true,left=true,right=false": {
+      "model": "embers:block/rack_110",
+      "y": 270
+    },
+    "facing=west,upper=true,left=true,right=true": {
+      "model": "embers:block/rack_111",
+      "y": 270
+    }
+  }
+}

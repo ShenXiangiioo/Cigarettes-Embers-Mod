@@ -1,0 +1,44 @@
+plugins { id 'net.minecraftforge.gradle' version '6.0.54' }
+version = '0.1.2'
+group = 'world.embers'
+base { archivesName = 'cigarettes-forge-1.20.1' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        configureEach {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'info'
+            property 'embers.qa', 'true'
+            property 'mixin.env.disableRefMap', 'true'
+            args '--mixin', 'embers.mixins.json'
+            mods { embers { source sourceSets.main } }
+        }
+        client {
+            workingDirectory project.file(project.findProperty('qaDirectory') ?: 'run')
+            args '--width', '1440', '--height', '900', '--username', project.findProperty('qaPlayer') ?: 'EmbersQA'
+            if (project.hasProperty('qaJoin')) args '--quickPlayMultiplayer', '127.0.0.1:25575'
+        }
+        server { workingDirectory project.file('run-server'); args '--nogui' }
+        gameTestServer { workingDirectory project.file('run-gametest'); property 'forge.enabledGameTestNamespaces', 'embers' }
+    }
+}
+repositories { mavenCentral(); maven { url = 'https://maven.blamejared.com' } }
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.10'
+    compileOnly fg.deobf('mezz.jei:jei-1.20.1-common-api:15.49.0.200')
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+}
+test { useJUnitPlatform() }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.withType(JavaExec).configureEach { if (name == 'runServer') standardInput = System.in }
+jar { exclude 'world/embers/qa/**', 'world/embers/EmbersGameTests.class', 'data/embers/structures/empty.nbt'; finalizedBy 'reobfJar'; manifest { attributes('Implementation-Version': project.version, 'MixinConfigs': 'embers.mixins.json') } }
+tasks.register('qaJar', Jar) {
+    from sourceSets.main.output
+    exclude 'world/embers/EmbersGameTests.class', 'data/embers/structures/empty.nbt'
+    archiveClassifier = 'qa'
+    destinationDirectory = layout.buildDirectory.dir('qa-libs')
+    manifest { attributes('Implementation-Version': project.version, 'MixinConfigs': 'embers.mixins.json') }
+    finalizedBy 'reobfQaJar'
+}
+reobf { qaJar {} }

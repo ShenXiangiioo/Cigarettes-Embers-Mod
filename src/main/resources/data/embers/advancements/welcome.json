@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "embers:hetianxia_pack"
+    },
+    "title": {
+      "translate": "advancement.embers.welcome"
+    },
+    "description": {
+      "translate": "advancement.embers.welcome.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/gray_concrete.png"
+  },
+  "criteria": {
+    "first": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

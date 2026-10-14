@@ -1,0 +1,9 @@
+.gradle/
+build/
+run/
+run-server/
+run-second/
+run-gametest/
+logs/
+*.iml
+.idea/

@@ -1,0 +1,88 @@
+{
+  "mappings": {
+    "world/embers/mixin/BlockLightMixin": {
+      "getEmission(JLnet/minecraft/world/level/block/state/BlockState;)I": "Lnet/minecraft/world/level/lighting/BlockLightEngine;m_284436_(JLnet/minecraft/world/level/block/state/BlockState;)I"
+    },
+    "world/embers/mixin/FoodDataMixin": {
+      "eat(IF)V": "Lnet/minecraft/world/food/FoodData;m_38707_(IF)V",
+      "setFoodLevel": "Lnet/minecraft/world/food/FoodData;m_38705_(I)V",
+      "setSaturation": "Lnet/minecraft/world/food/FoodData;m_38717_(F)V",
+      "tick": "Lnet/minecraft/world/food/FoodData;m_38710_(Lnet/minecraft/world/entity/player/Player;)V",
+      "foodLevel": "Lnet/minecraft/world/food/FoodData;f_38696_:I",
+      "saturationLevel": "Lnet/minecraft/world/food/FoodData;f_38697_:F"
+    },
+    "world/embers/mixin/FoodUseMixin": {
+      "completeUsingItem": "Lnet/minecraft/world/entity/LivingEntity;m_8095_()V"
+    },
+    "world/embers/mixin/PlayerFoodMixin": {
+      "eat": "Lnet/minecraft/world/entity/player/Player;m_5584_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;"
+    },
+    "world/embers/mixin/CreeperSmokingMixin": {
+      "tick": "Lnet/minecraft/world/entity/monster/Creeper;m_8119_()V"
+    },
+    "world/embers/mixin/VillagerOffersMixin": {
+      "getOffers": "Lnet/minecraft/world/entity/npc/AbstractVillager;m_6616_()Lnet/minecraft/world/item/trading/MerchantOffers;"
+    },
+    "world/embers/mixin/DiscountOfferMixin": {
+      "getCostA": "Lnet/minecraft/world/item/trading/MerchantOffer;m_45358_()Lnet/minecraft/world/item/ItemStack;",
+      "getSpecialPriceDiff": "Lnet/minecraft/world/item/trading/MerchantOffer;m_45377_()I"
+    },
+    "world/embers/mixin/TradeRevalidationMixin": {
+      "quickMoveStack": "Lnet/minecraft/world/inventory/MerchantMenu;m_7648_(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;"
+    },
+    "world/embers/mixin/PressureEffectMixin": {
+      "save": "Lnet/minecraft/world/effect/MobEffectInstance;m_19555_(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;",
+      "load": "Lnet/minecraft/world/effect/MobEffectInstance;m_19560_(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/effect/MobEffectInstance;"
+    },
+    "world/embers/mixin/SmokingMobMovementMixin": {
+      "serverAiStep": "Lnet/minecraft/world/entity/Mob;m_6140_()V"
+    },
+    "world/embers/mixin/MerchantDisplayMixin": {
+      "sendMerchantOffers": "Lnet/minecraft/server/level/ServerPlayer;m_7662_(ILnet/minecraft/world/item/trading/MerchantOffers;IIZZ)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "world/embers/mixin/BlockLightMixin": {
+        "getEmission(JLnet/minecraft/world/level/block/state/BlockState;)I": "Lnet/minecraft/world/level/lighting/BlockLightEngine;m_284436_(JLnet/minecraft/world/level/block/state/BlockState;)I"
+      },
+      "world/embers/mixin/FoodDataMixin": {
+        "eat(IF)V": "Lnet/minecraft/world/food/FoodData;m_38707_(IF)V",
+        "setFoodLevel": "Lnet/minecraft/world/food/FoodData;m_38705_(I)V",
+        "setSaturation": "Lnet/minecraft/world/food/FoodData;m_38717_(F)V",
+        "tick": "Lnet/minecraft/world/food/FoodData;m_38710_(Lnet/minecraft/world/entity/player/Player;)V",
+        "foodLevel": "Lnet/minecraft/world/food/FoodData;f_38696_:I",
+        "saturationLevel": "Lnet/minecraft/world/food/FoodData;f_38697_:F"
+      },
+      "world/embers/mixin/FoodUseMixin": {
+        "completeUsingItem": "Lnet/minecraft/world/entity/LivingEntity;m_8095_()V"
+      },
+      "world/embers/mixin/PlayerFoodMixin": {
+        "eat": "Lnet/minecraft/world/entity/player/Player;m_5584_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;"
+      },
+      "world/embers/mixin/CreeperSmokingMixin": {
+        "tick": "Lnet/minecraft/world/entity/monster/Creeper;m_8119_()V"
+      },
+      "world/embers/mixin/VillagerOffersMixin": {
+        "getOffers": "Lnet/minecraft/world/entity/npc/AbstractVillager;m_6616_()Lnet/minecraft/world/item/trading/MerchantOffers;"
+      },
+      "world/embers/mixin/DiscountOfferMixin": {
+        "getCostA": "Lnet/minecraft/world/item/trading/MerchantOffer;m_45358_()Lnet/minecraft/world/item/ItemStack;",
+        "getSpecialPriceDiff": "Lnet/minecraft/world/item/trading/MerchantOffer;m_45377_()I"
+      },
+      "world/embers/mixin/TradeRevalidationMixin": {
+        "quickMoveStack": "Lnet/minecraft/world/inventory/MerchantMenu;m_7648_(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;"
+      },
+      "world/embers/mixin/PressureEffectMixin": {
+        "save": "Lnet/minecraft/world/effect/MobEffectInstance;m_19555_(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;",
+        "load": "Lnet/minecraft/world/effect/MobEffectInstance;m_19560_(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/effect/MobEffectInstance;"
+      },
+      "world/embers/mixin/SmokingMobMovementMixin": {
+        "serverAiStep": "Lnet/minecraft/world/entity/Mob;m_6140_()V"
+      },
+      "world/embers/mixin/MerchantDisplayMixin": {
+        "sendMerchantOffers": "Lnet/minecraft/server/level/ServerPlayer;m_7662_(ILnet/minecraft/world/item/trading/MerchantOffers;IIZZ)V"
+      }
+    }
+  }
+}

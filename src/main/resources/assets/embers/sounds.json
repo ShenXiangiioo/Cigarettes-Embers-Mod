@@ -1,0 +1,789 @@
+{
+  "breath": {
+    "sounds": [
+      {
+        "name": "embers:breath",
+        "volume": 1,
+        "pitch": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "burn_hurt": {
+    "sounds": [
+      {
+        "name": "embers:recorded_burn_hurt",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "cough": {
+    "sounds": [
+      {
+        "name": "embers:recorded_cough_owner",
+        "volume": 1,
+        "weight": 5,
+        "attenuation_distance": 12
+      },
+      {
+        "name": "embers:recorded_cough_b",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      },
+      {
+        "name": "embers:recorded_cough_c",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      },
+      {
+        "name": "embers:recorded_cough_d",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "drop": {
+    "sounds": [
+      {
+        "name": "embers:drop",
+        "volume": 1,
+        "pitch": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "exhale": {
+    "sounds": [
+      {
+        "name": "embers:recorded_exhale_short",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "extinguish": {
+    "sounds": [
+      {
+        "name": "embers:extinguish_v1",
+        "attenuation_distance": 12
+      },
+      {
+        "name": "embers:extinguish_v2",
+        "attenuation_distance": 12
+      },
+      {
+        "name": "embers:extinguish_v3",
+        "attenuation_distance": 12
+      },
+      {
+        "name": "embers:extinguish_v4",
+        "attenuation_distance": 12
+      },
+      {
+        "name": "embers:extinguish_v5",
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "flint": {
+    "sounds": [
+      {
+        "name": "embers:recorded_wheel_strike_a",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      },
+      {
+        "name": "embers:recorded_wheel_strike_b",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "heartbeat": {
+    "sounds": [
+      {
+        "name": "embers:heartbeat",
+        "volume": 1,
+        "pitch": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "inhale_deep": {
+    "sounds": [
+      {
+        "name": "embers:recorded_inhale_deep_a",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      },
+      {
+        "name": "embers:recorded_inhale_deep_b",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "inhale_short": {
+    "sounds": [
+      {
+        "name": "embers:recorded_inhale_short_a",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      },
+      {
+        "name": "embers:recorded_inhale_short_b",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "jet": {
+    "sounds": [
+      {
+        "name": "embers:recorded_jet_burn",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "jet_black_burn": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_jet_burn",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "jet_black_close": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_jet_release",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "jet_black_open": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_jet_trigger",
+        "volume": 0.3,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "jet_black_strike": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_jet_strike",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "jet_copper_burn": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_jet_burn",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "jet_copper_close": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_jet_release",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "jet_copper_open": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_jet_trigger",
+        "volume": 0.3,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "jet_copper_strike": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_jet_strike",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "jet_silver_burn": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_jet_burn",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "jet_silver_close": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_jet_release",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "jet_silver_open": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_jet_trigger",
+        "volume": 0.3,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "jet_silver_strike": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_jet_strike",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "lighter_close": {
+    "sounds": [
+      {
+        "name": "embers:recorded_oil_close",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "lighter_open": {
+    "sounds": [
+      {
+        "name": "embers:recorded_oil_open",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      },
+      {
+        "name": "embers:recorded_metal_lid",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "lighter_pop": {
+    "sounds": [
+      {
+        "name": "embers:recorded_lighter_pop",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "oil": {
+    "sounds": [
+      {
+        "name": "embers:recorded_oil_burn",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "oil_black_burn": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_oil_burn",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "oil_black_close": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_oil_close",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "oil_black_open": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_oil_open",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "oil_black_strike": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_oil_strike",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "oil_brass_burn": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_oil_burn",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "oil_brass_close": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_oil_close",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "oil_brass_open": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_oil_open",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "oil_brass_strike": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_oil_strike",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "oil_chrome_burn": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_oil_burn",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "oil_chrome_close": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_oil_close",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "oil_chrome_open": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_metal_lid",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "oil_chrome_strike": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_oil_strike",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "pack_close": {
+    "sounds": [
+      {
+        "name": "embers:recorded_pack_return",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "pack_open": {
+    "sounds": [
+      {
+        "name": "embers:pack_open_v1",
+        "attenuation_distance": 12
+      },
+      {
+        "name": "embers:pack_open_v2",
+        "attenuation_distance": 12
+      },
+      {
+        "name": "embers:pack_open_v3",
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "pack_take": {
+    "sounds": [
+      {
+        "name": "embers:recorded_pack_take",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "pack_wrap": {
+    "sounds": [
+      {
+        "name": "embers:pack_wrap",
+        "volume": 1,
+        "pitch": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "piezo": {
+    "sounds": [
+      {
+        "name": "embers:recorded_jet_trigger",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "piezo_burn": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_jet_burn_soft",
+        "volume": 0.55,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "piezo_close": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_jet_release",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "piezo_open": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_jet_trigger",
+        "volume": 0.3,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "piezo_strike": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_jet_trigger",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "refill": {
+    "sounds": [
+      {
+        "name": "embers:refill",
+        "volume": 1,
+        "pitch": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "sigh": {
+    "sounds": [
+      {
+        "name": "embers:recorded_sigh_a",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      },
+      {
+        "name": "embers:recorded_sigh_b",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "water_out": {
+    "sounds": [
+      {
+        "name": "embers:recorded_water_out",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "wheel_burn": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_jet_burn_soft",
+        "volume": 0.5,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "wheel_close": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_wheel_release",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "wheel_open": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_wheel_release",
+        "volume": 0.35,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "wheel_strike": {
+    "sounds": [
+      {
+        "name": "embers:v9_lighter_recorded_wheel_strike_a",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      },
+      {
+        "name": "embers:v9_lighter_recorded_wheel_strike_b",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "sigh_0": {
+    "sounds": [
+      {
+        "name": "embers:recorded_sigh_a",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "sigh_1": {
+    "sounds": [
+      {
+        "name": "embers:recorded_sigh_b",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "sigh_2": {
+    "sounds": [
+      {
+        "name": "embers:recorded_sigh_a",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "sigh_3": {
+    "sounds": [
+      {
+        "name": "embers:recorded_sigh_b",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "sigh_4": {
+    "sounds": [
+      {
+        "name": "embers:recorded_sigh_a",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "pack_return": {
+    "sounds": [
+      {
+        "name": "embers:recorded_pack_return",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "exhale_medium": {
+    "sounds": [
+      {
+        "name": "embers:recorded_exhale_medium",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "exhale_long": {
+    "sounds": [
+      {
+        "name": "embers:recorded_exhale_long",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "cigarette_burn": {
+    "sounds": []
+  },
+  "piezo_burn_loop": {
+    "sounds": [
+      {
+        "name": "embers:v11_loop_recorded_jet_burn_soft",
+        "volume": 0.55,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "wheel_burn_loop": {
+    "sounds": [
+      {
+        "name": "embers:v11_loop_recorded_jet_burn_soft",
+        "volume": 0.5,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "jet_black_burn_loop": {
+    "sounds": [
+      {
+        "name": "embers:v11_loop_recorded_jet_burn",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "jet_copper_burn_loop": {
+    "sounds": [
+      {
+        "name": "embers:v11_loop_recorded_jet_burn",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "jet_silver_burn_loop": {
+    "sounds": [
+      {
+        "name": "embers:v11_loop_recorded_jet_burn",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "oil_brass_burn_loop": {
+    "sounds": [
+      {
+        "name": "embers:v11_loop_recorded_oil_burn",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "oil_chrome_burn_loop": {
+    "sounds": [
+      {
+        "name": "embers:v11_loop_recorded_oil_burn",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "oil_black_burn_loop": {
+    "sounds": [
+      {
+        "name": "embers:v11_loop_recorded_oil_burn",
+        "volume": 1,
+        "weight": 1,
+        "attenuation_distance": 12
+      }
+    ]
+  }
+}

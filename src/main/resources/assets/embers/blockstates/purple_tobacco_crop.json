@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "embers:block/purple_tobacco_0"
+    },
+    "age=1": {
+      "model": "embers:block/purple_tobacco_1"
+    },
+    "age=2": {
+      "model": "embers:block/purple_tobacco_2"
+    },
+    "age=3": {
+      "model": "embers:block/purple_tobacco_3"
+    },
+    "age=4": {
+      "model": "embers:block/purple_tobacco_4"
+    },
+    "age=5": {
+      "model": "embers:block/purple_tobacco_5"
+    },
+    "age=6": {
+      "model": "embers:block/purple_tobacco_6"
+    },
+    "age=7": {
+      "model": "embers:block/purple_tobacco_7"
+    }
+  }
+}

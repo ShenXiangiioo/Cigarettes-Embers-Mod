@@ -1,0 +1,29 @@
+{
+  "type": "embers:processing",
+  "tobacco": {
+    "item": "embers:dried_purple_tobacco"
+  },
+  "paper": {
+    "item": "minecraft:paper"
+  },
+  "additives": [
+    {
+      "ingredient": {
+        "item": "minecraft:apple"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:stick"
+      },
+      "count": 1
+    }
+  ],
+  "duration": 6000,
+  "fuel": 1,
+  "result": {
+    "item": "embers:chapman_slim_pack",
+    "count": 1
+  }
+}

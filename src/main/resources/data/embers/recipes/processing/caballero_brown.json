@@ -1,0 +1,29 @@
+{
+  "type": "embers:processing",
+  "tobacco": {
+    "item": "embers:dried_purple_tobacco"
+  },
+  "paper": {
+    "item": "minecraft:paper"
+  },
+  "additives": [
+    {
+      "ingredient": {
+        "item": "minecraft:brown_dye"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:cocoa_beans"
+      },
+      "count": 1
+    }
+  ],
+  "duration": 6000,
+  "fuel": 1,
+  "result": {
+    "item": "embers:caballero_brown_pack",
+    "count": 1
+  }
+}

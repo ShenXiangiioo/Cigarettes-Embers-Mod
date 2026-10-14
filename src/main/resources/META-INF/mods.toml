@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="embers"
+version="0.1.2"
+displayName="香烟：余烬 / Cigarettes: Embers"
+authors="ShenXiangiioo"
+displayURL="https://www.curseforge.com/members/shenxiangiioo"
+logoFile="embers-logo.png"
+description='''Fictional cigarette collections, detailed lighters and shared smoking rituals.
+Grow four tobacco varieties, dry leaves and process packs. Optional brand effects,
+addiction, mob gifts and stress settings integrate with the Commerce administrator tablet.'''
+[[dependencies.embers]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,48)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.embers]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"

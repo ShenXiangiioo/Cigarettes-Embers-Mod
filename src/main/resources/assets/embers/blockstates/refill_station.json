@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "embers:block/refill_station",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "embers:block/refill_station",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "embers:block/refill_station",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "embers:block/refill_station",
+      "y": 270
+    }
+  }
+}

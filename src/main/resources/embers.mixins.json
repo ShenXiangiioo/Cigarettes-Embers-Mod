@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "world.embers.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "embers.refmap.json",
+  "mixins": [
+    "CommerceTransactionMixin",
+    "CommerceTextMixin",
+    "FoodDataMixin",
+    "FoodUseMixin",
+    "PlayerFoodMixin",
+    "CreeperSmokingMixin",
+    "VillagerOffersMixin",
+    "DiscountOfferMixin",
+    "TradeRevalidationMixin",
+    "PressureEffectMixin",
+    "SmokingMobMovementMixin",
+    "MerchantDisplayMixin"
+  ],
+  "client": [
+    "BlockLightMixin",
+    "YsmMouthMixin",
+    "CommerceTabletMixin",
+    "CommerceQualificationMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
